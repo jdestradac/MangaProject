@@ -1,0 +1,131 @@
+.main {
+  padding: 100px;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+.container {
+  display: flex;
+  height: 600px; 
+  margin-bottom: 50px;
+  justify-content: center; 
+}
+
+.fisrt {
+  width: 50%;
+  background-image: url('https://dashboard.zonaolympus.com/storage/sliders/11/banner-emperador-xl.webp');
+  background-size: cover;
+  margin-right: 20px;
+  background-position: center;
+  border-radius: 15px;
+  position: relative; 
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(129, 122, 122, 0.614) 100%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; 
+  transition: opacity 0.3s ease;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-end; 
+}
+
+.split-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.second {
+  height: 50%;
+  background-image: url('https://dashboard.zonaolympus.com/storage/sliders/16/banner-emperador-xl.webp');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  position: relative; 
+}
+
+.third {
+  height: 50%;
+  background-image: url('https://dashboard.zonaolympus.com/storage/sliders/1/hijo_menor_olympus-xl.webp');
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  border-radius: 15px;
+  position: relative; 
+}
+
+.fisrt:hover, .second:hover, .third:hover {
+  background-color: #333; 
+  transform: scale(1.01);
+  filter: brightness(50%)
+}
+
+h2 {
+  font-size: 2.2em;
+  margin: 0;
+  color: white; 
+}
+
+.overlay p {
+  font-size: 1.8em;
+  color: rgb(208, 207, 207);
+  overflow: hidden; 
+  display: -webkit-box;
+  -webkit-box-orient: vertical; 
+  -webkit-line-clamp: 2;
+  margin: 0;
+  line-height: 1.5; 
+}
+
+
+.slider {
+  display: flex;
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
+  width: 90%;
+  padding: 20px 0; 
+
+}
+
+.slider::-webkit-scrollbar {
+  height: 13px; 
+  background-color: rgba(59, 59, 59, 0.563);
+  border-radius: 4px
+}
+
+.slider::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px; 
+}
+
+.slider::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.slider-item {
+  min-width: 24%;
+  margin: 0 10px;
+  background-size: cover;
+  background-position: center;
+  scroll-snap-align: start; 
+  border-radius: 15px;
+  position: relative; 
+  background-color: black;
+
+}
+
+.slider-item:hover {
+  background-color: #333; 
+  transform: scale(1.05);
+  filter: brightness(50%)
+}

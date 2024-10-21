@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mangas</title>
+    <link rel="icon" href="images/olympus-logo-96.webp" type="image/x-icon"> 
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" aria-current="page" class="header-logo">
+                <img src="images/olympus-logo-96.webp" alt="Olympus Scanlation">
+            </a>
+            <nav class="header-nav">
+
+                <a href="./index.html" aria-current="page">
+                    <div class="header-icon-container">
+                        <i class="fas fa-home icon"></i>
+                    </div>
+                    <span>Inicio</span>
+                </a>
+                <a href="./views/series.html">
+                    <div class="header-icon-container">
+                        <i class='fas fa-clone icon'></i>
+
+                    </div>
+
+                    <span>Series</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="container">
+            <div class="fisrt" onclick="openDetailPage(1)">
+                <div class="overlay">
+                    <h2>El hijo bastardo del marqués era el emperador</h2>
+                    <p>
+                        «¡Un emperador que murió injustamente se convierte en un desgraciado hijo bastardo!» Ian, un
+                        mago del Imperio de Bariel, se convirtió en emperador a una edad temprana, pero fue encarcelado
+                        debido a la rebelión de su sobrino. Sin embargo, fue salvado por el mago Naum utilizando magia
+                        espacio-temporal prohibida. Esta magia lleva al emperador Ian 100 años al pasado, donde posee al
+                        Bastardo Ian, el hijo ilegítimo de la familia Margrave que se extinguió hace 100 años. El
+                        bastardo Ian está a punto de ser tomado como rehén por los bárbaros. ¡¡¡Ian está a punto de
+                        verse envuelto en una sangrienta conspiración!!!"
+                    </p>
+                </div>
+            </div>
+            <div class="split-column">
+                <div class="second" onclick="openDetailPage(2)">
+                    <div class="overlay">
+                        <h2>Solo Leveling: Ragnarok</h2>
+                    </div>
+                </div>
+                <div class="third" onclick="openDetailPage(3)">
+                    <div class="overlay">
+                        <h2>El hijo menor del maestro de la espada</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <h2>Popular Del Dia</h2>
+        <section class="container" id="Popular">
+        </section>
+      
+        <script src="./js/script.js"></script>
+    </main>
+
+
+
+</body>
+
+
+
+</body>
+
+</html>
