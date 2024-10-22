@@ -37,10 +37,13 @@
 
 .search-input {
   border: 1px solid #ccc;
-  border-radius: 8px 0 0 8px;
+  border-radius: 8px;
   padding: 10px 15px;
   outline: none;
+  width: 400px;
   transition: border 0.3s, box-shadow 0.3s;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+
 }
 
 .search-input:focus {
