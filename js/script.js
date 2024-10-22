@@ -140,8 +140,6 @@ const slider = [
         "type": "comic",
         "description": "Un grupo de jóvenes guerreros se embarca en una misión para recuperar las runas perdidas que pueden cambiar el destino de su mundo para siempre. En su travesía, se enfrentan a pruebas que pondrán a prueba no solo su fuerza, sino también su lealtad y amistad. Cada runa que encuentran revela fragmentos de un antiguo poder que desatará tanto grandeza como destrucción. A medida que avanzan, deben decidir si usar ese poder para bien o si sucumbir a la tentación de usarlo para sus propios fines."
     }
-
-   
 ]
 
 

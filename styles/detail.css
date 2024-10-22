@@ -26,8 +26,8 @@ body {
 }
 
 .item-details-container img {
-    width: auto; /* Aumentado el ancho de la imagen */
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
     border-radius: 12px;
     border: none;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
